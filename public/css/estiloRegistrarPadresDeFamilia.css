@@ -1,0 +1,68 @@
+
+form label {
+position: absolute;
+}
+
+.input {
+margin-left: 300px;
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-bottom: 15px;
+}
+
+.error{
+  border-collapse: collapse;
+  border: 2px solid red;
+}
+.sep{
+  color: red;
+}
+h4{
+  margin-bottom: 15px;
+}
+
+#btnRegistrar {
+  font-size: 15px;
+  font-weight: bold;
+  color: ghostwhite;
+  background:#336e7b;
+  margin-top: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+}
+.item5 {
+  margin-top: 0px;
+  margin-left: 800px;
+}
+.item2{
+  margin-left: 5px;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+display: grid;
+grid-template-areas:
+  'header header header header header header'
+  'menu main main main right right'
+  'menu footer footer footer footer footer';
+grid-gap: 10px;
+
+padding: 10px;
+}
+
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding: 20px 0;
+font-size: 20px;
+}
+

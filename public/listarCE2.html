@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Búsqueda de centros educativos</title>
+            <link rel="stylesheet" href="css/reset.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="css/estilos_nav_principal.css">
+            <link rel="stylesheet" href="css/estilos_home.css">
+            <link rel="stylesheet" href="css/estilos_dash_PF.css">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/estiloBuscarCE.css">
+        </head>
+        <body>
+            <header>
+                <hgroup>
+                    <a href="home.html"><img src="img/mep_logo2.png"></a>
+                </hgroup>
+
+                <nav id="nav_principal">
+                    <a href="home.html">Principal</a>
+                    <a href="perfil_Mep.html">Mi perfil (MEP)</a>
+                    <a href="perfil_PF.html">Mi perfil (PF)</a>
+                    <a href="perfil_CE.html">Perfil centro educativo</a>
+                    <a href="dash_Mep.html">Tablero MEP</a>
+                    <a href="dash_usuario_PF.html">Tablero usuario</a>
+                    <a href="dash_CE.html">Tablero centro educativo</a>
+                    <a href="inicio_sesion.html">Iniciar sesión</a>
+                    <a href="#" id="btnCerrarSesion">Cerrar sesión</a>
+                </nav>
+            </header>      
+
+            <div class="flex-box">
+                <label class="filtro" for="txtFiltro">Filtro:</label>
+                <input class="filtro" type="text" id="txtFiltro" placeholder="Buscar por nombre">
+            </div>     
+            <div id="table">
+                <table id="tblCentrosEducativos">
+                    <thead>
+                        <tr>
+                            <th id="modalidad" class="th">Modalidad</th>
+                            <th id="nombre" class="th">Nombre</th>
+                            <th id="provincia" class="th">Provincia</th>
+                            <th id="canton" class="th">Cantón</th>
+                            <th id="direccion" class="th">Dirección</th>
+                            <th id="telefono" class="th">Teléfono</th>
+                            <th id="web" class="th">Página web</th>
+                            <th></th>       
+                        </tr>
+                    </thead>
+                    <tbody>
+                    
+                    </tbody>
+                </table>
+            </div>
+
+            <footer>
+                <div class="col-1">
+                <h2>Proyecto grupal - Equipo Thundercats</h2>
+                </div>
+                <div class="col-2">
+                <h2>Copyright © 2019 - Todos los derechos reservados - Domain Aplicación MEP - Template by Thundercats</h2>
+                </div>
+            </footer>
+            
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <script src="js/servicioCE.js"></script>
+            <script src="js/controladorListarCE2.js"></script>
+            <script src="js/controlador_nav.js"></script>
+        </body>
+        
+    </html>

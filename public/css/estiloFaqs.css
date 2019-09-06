@@ -1,0 +1,74 @@
+/*body{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #bfbfbf;
+    font-family: Tahoma;
+  }
+  
+h3{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 2em;
+  }*/
+
+.input_error{
+    border : 2px solid #db0000;
+}
+
+/**/
+
+form {
+  margin-bottom: 50px;
+}
+
+form label {
+  position: absolute;
+}
+
+#txtPregunta, #txtDescripcion {
+  box-sizing: content-box;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+}
+
+/*#btnRegistrar{
+  font-size: 15px;
+  font-weight: bold;
+  color: ghostwhite;
+  background:#336e7b;
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+}*/
+
+/*#divBuscarFaqs {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}*/
+
+#tblFaqs {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: #F8F8FF;
+  text-align: left;
+}
+
+#tblFaqs th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#tblFaqs tbody td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}

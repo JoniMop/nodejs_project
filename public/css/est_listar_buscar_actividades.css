@@ -1,0 +1,41 @@
+
+.input_error{
+  border : 2px solid #db0000;
+}
+  
+/**Otros css para detalles puntuales de esta funcionalidad*/
+    
+#div_buscar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#txt_buscar {
+  margin-left: 20px;
+}
+
+#tbl_actividades {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: #F8F8FF;
+  text-align: left;
+}
+
+#tbl_actividades th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#tbl_actividades tbody td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

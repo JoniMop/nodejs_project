@@ -1,0 +1,85 @@
+/*Inicio: Generales*/
+
+/*Inicio: Contenido*/
+h1{
+  text-align: center;
+  /* font-weight: bold; */
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+form{
+  padding-top: 30px;
+  padding-bottom:15px;
+  margin-left: 20px;
+}
+.alinks{
+  display: inline-block;
+  padding-left: 40px;
+  margin-top: 30px;
+}
+
+.boxtext1{
+  float:left;
+  width: 200px;
+}
+.alinks a:last-child{
+  padding-left: 15px;
+}
+.boximg {
+  width: 169px;
+  height: 133px;
+  float: right;
+
+}
+.boximg img{
+  padding-left: 20px;
+  border-radius: 70px;
+}
+
+.boxtext2{
+  width: 200px;
+  float:left;
+}
+
+.login{
+  background-color:  #f2f1ef;
+  opacity: 0.8;
+  width: 400px;
+  height: 300px;
+  margin-left: 300px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  border: 5px solid;
+  border-color: #808080;
+}
+
+.login input{
+  margin-bottom: 15px;
+  margin-top: 5px;
+	display: inline-block;
+}
+
+.login [type="button"] {
+	display: inline-block;
+	padding: 10px 12px;
+	width: auto;
+	border: 0 none ;
+	color: rgb(255,255,255);
+	background-color:  #22A7F0;
+	cursor: pointer;
+	border-radius: 0px;
+	font-size: 14px;
+  margin-top: 12px;
+}
+.login [type="button"]:hover {
+	border-bottom: 0 none;
+	padding: 6px 10px;
+	border: 2px solid ;
+	background-color: #f7ca18;
+  color: white;
+}
+.rbotones{
+  width: 200px;
+
+}

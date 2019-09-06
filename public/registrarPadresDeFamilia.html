@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <title>Registrar padres de familia</title>
+                <link rel="stylesheet" href="css/reset.css">
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+                <link rel="stylesheet" href="css/estilos_nav_principal.css">
+                <link rel="stylesheet" href="css/estilos_home.css">
+                <link rel="stylesheet" href="css/estilos_dash_PF.css">
+                <link rel="stylesheet" href="css/style.css">
+                <link rel="stylesheet" href="css/estiloRegistrarPadresDeFamilia.css">
+                
+            </head>
+    <body>
+        <header>
+            <hgroup>
+                <a href="home.html"><img src="img/mep_logo2.png"></a>
+            </hgroup>
+
+            <nav id="nav_principal">
+                <!-- <a href="home.html">Principal</a> -->
+                <!-- <a href="perfil_Mep.html">Mi perfil (MEP)</a> -->
+                <!-- <a href="perfil_PF.html">Mi perfil (PF)</a> -->
+                <!-- <a href="perfil_CE.html">Perfil centro educatvio</a> -->
+                <!-- <a href="dash_Mep.html">Tablero MEP</a> -->
+                <!-- <a href="dash_usuario_PF.html">Tablero usuario</a> -->
+                <!-- <a href="dash_CE.html">Tablero centro educativo</a> -->
+                <a href="inicio_sesion.html">Iniciar sesión</a>
+                <!-- <a href="#" id="btnCerrarSesion">Cerrar sesión</a> -->
+            </nav>
+        </header>
+        
+        <div>
+            <div class="grid-container">
+                <div class="item1"><h1>Registro de usuarios</h1></div>
+                <div class="item2">
+                    <form id="formRegistro">
+                        <div>
+                            <label for="pnombre">Primer nombre</label>
+                            <input id="pnombre" class="input">
+                        </div>
+                        <div>
+                            <label for="snombre">Segundo nombre</label>
+                            <input id="snombre" class="input">
+                        </div>
+                        <div>
+                            <label for="primerApellido">Primer apellido</label>
+                            <input id="primerApellido" class="input">
+                        </div>
+                        <div>
+                            <label for="segundoApellido">Segundo apellido</label>
+                            <input id="segundoApellido" class="input">
+                        </div>
+                        <div>
+                            <label for="cedula">Cédula</label>
+                            <input type="text" id="cedula" class="input" min="">
+                        </div>
+                        <div>
+                            <label for="nacionalidad">Nacionalidad</label>
+                            <input id="nacionalidad" class="input">
+                        </div>
+                        <div id="provincia">
+                            <label for="sltProvincia">Provincia</label>
+                            <select id="sltProvincia" class="input">
+                                <option value="0" class="sep">--Provincia--</option>
+                                <option value="1">San José</option>
+                                <option value="2">Alajuela</option>
+                                <option value="3">Heredia</option>
+                                <option value="4">Cartago</option>
+                                <option value="5">Puntarenas</option>
+                                <option value="6">Guanacaste</option>
+                                <option value="7">Limón</option>
+                            </select>
+                        </div>
+                        
+                        <div id="canton">
+                            <label for="sltCanton">Cantón</label>
+                            <select id="sltCanton" class="input">
+                                <option value="0" class="sep">--Cantón--</option>
+                                <option value="0" class="sep">--San José--</option>
+                                <option value="1">1-San José</option>
+                                <option value="2">2-Escazú</option>
+                                <option value="3">3-Desamparados</option>
+                                <option value="4">4-Puriscal</option>
+                                <option value="5">5-Tarrazú</option>
+                                <option value="6">6-Aserrí</option>
+                                <option value="7">7-Mora</option>
+                                <option value="8">8-Goicoechea</option>
+                                <option value="9">9-Santa Ana</option>
+                                <option value="10">10-Alajuelita</option>
+                                <option value="11">11-Vásquez de Coronado</option>
+                                <option value="12">12-Acosta</option>
+                                <option value="13">13-Tibás</option>
+                                <option value="14">14-Moravia</option>
+                                <option value="15">15-Montes de Oca</option>
+                                <option value="16">16-Turrubares</option>
+                                <option value="17">17-Dota</option>
+                                <option value="18">18-Curridabat</option>
+                                <option value="19">19-Pérez Zeledón</option>
+                                <option value="20">20-León Cortés</option>
+                                <option value="0" class="sep">--Alajuela--</option>
+                                <option value="21">21-Alajuela</option>
+                                <option value="22">22-San Ramón</option>
+                                <option value="23">23-Grecia</option>
+                                <option value="24">24-San Mateo</option>
+                                <option value="25">25-Atenas</option>
+                                <option value="26">26-Naranjo</option>
+                                <option value="27">27-Palmares</option>
+                                <option value="28">28-Póas</option>
+                                <option value="29">29-Orotina</option>
+                                <option value="30">30-San Carlos</option>
+                                <option value="31">31-Zarcero</option>
+                                <option value="32">32-Valverde Vega</option>
+                                <option value="33">33-Upala</option>
+                                <option value="34">34-Los Chiles</option>
+                                <option value="35">35-Guatuso</option>
+                                <option value="0" class="sep">--Cartago--</option>
+                                <option value="36">36-Cartago</option>
+                                <option value="37">37-Paraíso</option>
+                                <option value="38">38-La Unión</option>
+                                <option value="39">39-Jiménez</option>
+                                <option value="40">40-Turrialba</option>
+                                <option value="41">41-Alvarado</option>
+                                <option value="42">42-Oreamudo</option>
+                                <option value="43">43-El Guarco</option>
+                                <option value="0" class="sep">--Heredia--</option>
+                                <option value="44">44-Heredia</option>
+                                <option value="45">45-Barva</option>
+                                <option value="46">46-Santo Domingo</option>
+                                <option value="47">47-Santa Barbara</option>
+                                <option value="48">48-San Rafael</option>
+                                <option value="49">49-San Isidro</option>
+                                <option value="50">50-Belén</option>
+                                <option value="51">51-Flores</option>
+                                <option value="52">52-San Pablo</option>
+                                <option value="53">53-Sarapiquí</option>
+                                <option value="0" class="sep">--Guanacaste--</option>
+                                <option value="54">54-Liberia</option>
+                                <option value="55">55-Nicoya</option>
+                                <option value="56">56-Santa Cruz</option>
+                                <option value="57">57-Bagaces</option>
+                                <option value="58">58-Carrillo</option>
+                                <option value="59">59-Cañas</option>
+                                <option value="60">60-Abangares</option>
+                                <option value="61">61-Tilarán</option>
+                                <option value="62">62-Nandayure</option>
+                                <option value="63">63-La Cruz</option>
+                                <option value="64">64-Hojancha</option>
+                                <option value="0" class="sep">--Puntarenas--</option>
+                                <option value="65">65-Puntarenas</option>
+                                <option value="66">66-Esparza</option>
+                                <option value="67">67-Buenos Aires</option>
+                                <option value="68">68-Montes de Oro</option>
+                                <option value="69">69-Osa</option>
+                                <option value="70">70-Quepos</option>
+                                <option value="71">71-Golfito</option>
+                                <option value="72">72-Coto Brus</option>
+                                <option value="73">73-Parrita</option>
+                                <option value="74">74-Corredores</option>
+                                <option value="75">75-Garabito</option>
+                                <option value="0" class="sep">--Limón--</option>
+                                <option value="76">76-Limón</option>
+                                <option value="77">77-Pococí</option>
+                                <option value="78">78-Siquirres</option>
+                                <option value="79">79-Talamanca</option>
+                                <option value="80">80-Matina</option>
+                                <option value="81">81-Guácimo</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="cantidadHijos">Cantidad de hijos</label>
+                            <input type="text" id="cantidadHijos" class="input">
+                        </div>
+                        <div>
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" class="input">
+                        </div>
+                        <div>
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" class="input" required>
+                        </div>
+                        <div>
+                            <label for="password">Contraseña</label>
+                            <input type="password" id="password" class="input">
+                        </div>
+                        
+                    </form> 
+            </div>
+             
+        </div>
+        <div class="item5">
+            <button type="button" id="btnRegistrar">Registrar</button>
+        </div>
+
+        <footer>
+            <div class="col-1">
+                <h2>Proyecto grupal - Equipo Thundercats</h2>
+            </div>
+            <div class="col-2">
+                <h2>Copyright © 2019 - Todos los derechos reservados - Domain Aplicación MEP - Template by Thundercats</h2>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/servicioPadresFamilia.js"></script>
+        <script src="js/controladorPadresFamilia.js"></script>
+    <!-- <script src="js/controlador_nav.js"></script> -->
+    </body>
+</html>
+    

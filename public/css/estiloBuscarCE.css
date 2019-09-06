@@ -1,0 +1,45 @@
+/*body{
+    width: 1024 px;
+    margin: 0 auto;
+    background-color: #bfbfbf;
+    font-family: Tahoma;
+}
+
+h1 {
+    text-align: center;
+    color: #22a7f0;
+}*/
+
+/*.th {
+    padding: 30px;
+    border-collapse: collapse;
+    border: solid black 1px;
+}
+
+#cuerpo {
+    border-collapse: collapse;
+    border: solid black 1px;
+}
+#tblCentrosEducativos {
+    margin-top: 20px;
+    font-size: 20px;*/
+    /* margin: 40px; */
+    /*background: white;
+    width: 975px;
+    border-collapse: collapse;
+    border: solid black 1px;   
+}*/
+
+#txtFiltro{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 320px;
+    
+}
+#filtro {
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+  

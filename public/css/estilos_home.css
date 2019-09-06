@@ -1,0 +1,96 @@
+/*Inicio: Generales*/
+body{
+  width: 1024px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #336e7b;
+}
+
+/*Inicio: Contenido*/
+h1{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 2em;
+}
+.clearfix{
+	clear:both;
+}
+
+/*Inicio: estilos Seccion Banner*/
+#banner{
+	padding: 0px 6.25% 20px 6.25% ; /*arriba y abajo 0 - a los lados de 60px = > 60/960por 100 = 6.25% */
+	margin-bottom: 2%;
+	/* background: #96281B; */
+}
+
+#banner .leftInfo{
+	width: 32.6041666666%; /*313/960por100= */
+	float: left;
+	margin-right: 10.1041666667% ; /*97px = 97/960po100 = 10.1041666667*/
+	padding-top: 98px;
+}
+
+#banner h1{
+	/* color: #fff; */
+  font-size: 2.5em; 
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+#banner p{
+	/* color: #979797; */
+	font-size: 1em; /*12px*/
+	margin-bottom: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#banner a{
+	color: #fff;
+	background: #336e7b;
+	padding: 8px 4.7923322684%; /* 15/313por100*/
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+#banner .imageContainer{
+  margin-top: 90px;
+  margin-left: 0px;
+	width: 500px; /*a esta medida 380px hay que quitarle el border izq y el border der osea 25 y 25 = 50 (330/960por100= 34.375% */
+	height: 500px; /*a esta medida 380px hay que quitarle el border top y el border bottom osea 25 y 25 = 50*/
+	border-radius: 50%;
+	border: 25px solid #f7ca18;
+	float: left;
+  /* background-color: #333; */
+  background-image: url(../img/estudiante.png);
+}
+/*Fin: estilos Seccion Banner*/
+
+
+/* INICIO: FOOTER */
+footer{
+  width: 1000px;
+  background: #e4f1fe;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  height: 100px;
+  margin-top: 50px;
+}
+
+footer h2{
+  font-size: 12px;
+}
+
+.col-1{
+  float: left;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.col-2{
+  float: right;
+  margin-right: 2em;
+  margin-top: 2em;
+}

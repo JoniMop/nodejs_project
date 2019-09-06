@@ -1,0 +1,75 @@
+/*Inicio: Generales*/
+body{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #bfbfbf;
+    font-family: Tahoma;
+  }
+  
+  /*Inicio: Contenido*/
+  h3{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 2em;
+  }
+  
+  /*Inicio: Header*/
+  nav{
+    background: #f2f1ef;
+  }
+  nav img{
+    border-collapse: collapse;
+    border: 1px solid #000;
+  }
+  
+  nav a{
+    padding: 5px;
+    display:inline-block;
+    text-decoration: none;
+    color: #22a7f0;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+  
+  a:first-child{
+    padding-left: 10px;
+  }
+  
+  .ocultar {
+    display:none;
+  }
+  
+  .input_error{
+      border : 2px solid #db0000;
+  }
+  
+  /**Otros css para detalles puntuales de esta funcionalidad*/
+  
+  
+  #div_buscar_utiles {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #tbl_utiles {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #F8F8FF;
+    text-align: center;
+  }
+  
+  #tbl_utiles th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  #tbl_utiles tbody td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }

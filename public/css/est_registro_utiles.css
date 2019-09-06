@@ -1,0 +1,32 @@
+
+  .input_error{
+      border : 2px solid #db0000;
+  }
+   
+  form {
+    margin-bottom: 50px;
+  }
+  
+  form label {
+    position: absolute;
+  }
+  
+  #txt_tipo, #txt_cantidad, #txt_descripcion {
+    box-sizing: content-box;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+  }
+  
+  #btn_registrar{
+    font-size: 15px;
+    font-weight: bold;
+    color: ghostwhite;
+    background:#336e7b;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+  }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Lista de noticias</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/estilos_nav_principal.css">
+        <link rel="stylesheet" href="css/estilos_home.css">
+        <link rel="stylesheet" href="css/estilos_dash_PF.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <hgroup>
+                <a href="home.html"><img src="img/mep_logo2.png"></a>
+            </hgroup>
+            
+            <nav id="nav_principal">
+                <a href="home.html">Principal</a>
+                <a href="perfil_Mep.html">Mi perfil (MEP)</a>
+                <a href="perfil_PF.html">Mi perfil (PF)</a>
+                <a href="perfil_CE.html">Perfil centro educativo</a>
+                <a href="dash_Mep.html">Tablero MEP</a>
+                <a href="dash_usuario_PF.html">Tablero usuario</a>
+                <a href="dash_CE.html">Tablero centro educativo</a>
+                <a href="inicio_sesion.html">Iniciar sesión</a>
+                <a href="#" id="btnCerrarSesion">Cerrar sesión</a>
+            </nav>
+        </header>
+        
+        <h1>Lista de noticias</h1>
+
+        <!--
+        <div class="flex-box">
+            <label class="filtro" for="txt_filtro" id="txt_filtro">Buscar</label>
+            <input class="filtro" type="text" id="txt_filtro">
+            <button type="button" id="btn_buscar">Buscar</button>
+        </div>
+
+        <form action="">
+            <h3>Registrar noticia</h3>
+
+            <div>
+                <form id="formulario_noticias">
+                    <div>
+                        <label for="txt_autor">Autor</label>
+                        <input type="text" id="txt_autor">
+                    </div>
+
+                    <div>
+                        <label for="txt_titulo">Título</label>
+                        <input type="text" id="txt_titulo">
+                    </div>
+
+                      <div>
+                            <label for="txtFecha">Fecha</label>
+                            <input type="date" id="txtFecha">
+                        </div> 
+
+                    <div>
+                        <label for="txt_noticia">Noticia</label>
+                        <textarea rows="4" type="text" id="txt_noticia"></textarea>
+                    </div>
+
+                    <div>
+                        <figure class="image_holder">
+                            <img src="https://firstfreerockford.org/wp-content/uploads/2018/08/placeholder-book-cover-default.png" alt="selecionar imagen"
+                                id="image_preview"> -->
+                    <!-- elemento semantico de html -->
+                    <!--</figure>
+                        <button type="button" id="btnSeleccionarImagen" class="noticia_imagen">Subir imagen</button>
+                        </div> 
+
+                    <button type="button" id="btn_registrar">Registrar</button>
+
+                </form>
+            </div>
+        </form>
+
+        -->
+
+        <table id="tblNoticias">
+
+            <thead>
+                <tr>
+                    <th>Autor</th>
+                    <th>Título</th>
+                    <!--  <th>Fecha</th> -->
+                    <th>Noticia</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+
+                </tr>
+            </tbody>
+        </table>
+
+    <!--<footer>
+            <div class="col-1">
+            <h2>Proyecto grupal - Equipo Thundercats</h2>
+            </div>
+            <div class="col-2">
+            <h2>Copyright © 2019 - Todos los derechos reservados - Domain Aplicación MEP - Template by Thundercats</h2>
+            </div>
+        </footer>-->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+        <script src="js/servicio_noticias.js"></script>
+        <script src="js/controlador_registro_noticias.js"></script>
+    </body>
+</html>

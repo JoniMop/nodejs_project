@@ -1,0 +1,43 @@
+  
+  .input_error{
+    border : 2px solid #db0000;
+  }
+  
+  #btn_registrar{
+    font-size: 15px;
+    font-weight: bold;
+    color: ghostwhite;
+    background:#336e7b;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+  }
+  
+  /*#tblActividades {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #F8F8FF;
+    text-align: center;
+  }
+  
+  #tblActividades th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  #tblActividades tbody td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }*/

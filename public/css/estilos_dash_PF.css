@@ -1,0 +1,71 @@
+/*INICIO ESTILOS: FUNCIONALIDADES*/
+#funcionalidades{
+  width: 500px;
+  margin-top: 50px;
+}
+
+#funcionalidades a{
+  display: block;
+  text-decoration: none;
+  color: #22a7f0;
+  font-size: 20px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+
+.foto_user{
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 300px;
+    float: right;
+}
+
+/*INCIO ESTILOS: CARDS*/
+.w3-container{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#works .projectDiv{
+	float: left;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+#works .projectDiv h3{ /*esta es la cajita arriba de la foto*/
+  font-size: 15px;
+  width: 225px;
+	padding: 13px 0; /*13px arriba y abajo y cero a der e izq*/
+	text-align: center; /*para que centre el texto*/
+}
+
+#works .projectDiv a{
+  text-decoration: none;
+  color: #336e7b;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+#works .projectDiv img{
+  border-collapse: collapse;
+  border: 1px solid #336e7b;
+}
+
+#works .projectDiv h4{ /*esta es la cajita abajo de la foto*/
+  font-size: 15px;
+  width: 225px;
+	padding: 13px 0;
+	text-align: center;	
+}
+
+#works .projectDiv:hover h3{
+  background: #e4f1fe;
+  color: #f7ca18;
+}
+
+ #works .projectDiv:hover h4{
+   background: #f1a9a0;
+   color: #fff;
+ }
